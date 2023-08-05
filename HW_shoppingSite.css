@@ -1,0 +1,75 @@
+
+
+body{
+    background-color: black;
+    color:azure
+}
+
+#title{
+    color:white;
+    font-size: 55px;
+    font-style: oblique;
+    border-color: rgb(182, 127, 255);
+    
+    border-radius: 15px;
+    border-block: 0.9rem solid rgb(251, 182, 194);
+    
+    text-align: center;
+}
+
+.change{              
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+
+.col{
+    flex: 0 0 7% ;
+    background-color:blueviolet;
+    text-align:center;
+    margin: auto;
+
+}
+
+a{
+    color:antiquewhite
+}
+
+img{
+    height: auto;
+    width: 280px;
+    border: 3px;
+    border-color: beige;
+    /* margin:20px */
+}
+
+.pic-verticle{
+    height: auto;
+    width: 270px;
+    margin-top:auto;
+}
+
+.btn{
+    flex: 0 0 7%;
+    margin:auto;
+    margin-top:2ch;  
+    margin-bottom:2ch;              
+}
+
+.buyList{
+    flex:auto;
+    text-align:right;
+    font-size: 20px;
+    padding-right: 10px;
+
+}
+
+.itemList{
+    width:500px;
+    color:black;
+}
+
+#clear{
+    margin-bottom:2ch;
+}
+
